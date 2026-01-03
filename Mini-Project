@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a6cf7;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #4a6cf7;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: #e0e7ff;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 25px;
+            background-color: #4a6cf7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #3b5bdb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Riya Rani</h1>
+        <p>1st Semester Student | Aspiring Web Developer</p>
+    </header>
+
+    <!-- About -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a first semester B.Tech Computer Science student interested in learning
+            programming and web development. I enjoy creating simple projects
+            and improving my technical skills.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Course:</strong> B.Tech CSE DS</li>
+            <li><strong>College:</strong> Rungta International Skills University </li>
+            <li><strong>Semester:</strong> 1st Semester</li>
+            <li><strong>Academic Year:</strong> 2025–2026</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript (Basic)</span>
+            <span>C Programming</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Mini Projects</h2>
+
+        <div class="project">
+            <h3>Student Portfolio Website</h3>
+            <p>Designed a personal portfolio using HTML, CSS, and JavaScript.</p>
+        </div>
+
+
+        <div class="project">
+            <p>Developed a static web page using HTML and CSS.</p>
+        </div>
+    </section>
+
+    <!-- Strengths -->
+    <section>
+        <h2>Strengths</h2>
+        <ul>
+            <li>Quick Learner</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Good Communication</li>
+        </ul>
+    </section>
+
+    <!-- Hobbies -->
+    <section>
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Coding practice</li>
+            <li>Learning new technologies</li>
+            <li>Music</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact</h2>
+        <p>Email: riyarani251006@gmail.com</p>
+    </section>
+
+    <!-- Button -->
+    <button onclick="showMessage()">Click Me</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Riya Rani | Student Portfolio</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showMessage() {
+            alert("Thank you for visiting my portfolio!");
+        }
+    </script>
+
+</body>
+</html>
